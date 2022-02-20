@@ -1,0 +1,8 @@
+{
+	"env": "PointReacher-v4", "gamma": 0.9, "lmbda": 1.2, "seed": 100, "runs": 30,
+	"cr_n_means": 4, "cr_sd": 10, "plcy_n_means": 4, "plcy_sd": 8, 
+	"n_trajc": 100, "steps_per_trajc": 50, 
+	"critic_step_size": 0.1, "critic_decay": 0, "independent_sampling": true,
+	"critic_n_batches": 60, "critic_batch_size": 10, 
+	"actor_step_size": 0.03, "actor_decay": 0, "actor_n_updates": 400, "actor_batch_size": 400
+}
